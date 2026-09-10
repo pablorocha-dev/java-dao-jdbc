@@ -7,6 +7,9 @@ import java.util.List;
 
 public interface SellerDao {
 
+    static void insert() {
+    }
+
     void insert(Seller obj);
     void update(Seller obj);
     void deleteById(Integer id);
